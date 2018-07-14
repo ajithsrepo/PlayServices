@@ -1,0 +1,13 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/mShare"
+        android:title="Share this app"
+        android:icon="@drawable/ic_sharewhite"
+        app:showAsAction="always" />
+    <item android:id="@+id/mRate"
+        android:title="Rate this app"
+        android:icon="@drawable/ic_favoritewhite"
+        app:showAsAction="always" />
+
+</menu>

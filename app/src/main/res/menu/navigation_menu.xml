@@ -10,11 +10,6 @@
             android:title="Chapters" />
 
         <item
-            android:id="@+id/nav_donate"
-            android:icon="@mipmap/baseline_favorite_border_black_24"
-            android:title="Donate" />
-
-        <item
             android:id="@+id/nav_contact"
             android:icon="@mipmap/baseline_contact_mail_black_24"
             android:title="Contact" />
@@ -30,7 +25,27 @@
             <item
                 android:id="@+id/nav_share"
                 android:icon="@drawable/ic_share"
-                android:title="Share" />
+                android:title="Share this app" />
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/ic_star"
+                android:title="Rate this app" />
+            <item
+                android:id="@+id/nav_newaccount"
+                android:icon="@drawable/ic_createnewaccount"
+                android:title="Create Zerodha account" />
+            <item
+                android:id="@+id/nav_products"
+                android:icon="@drawable/ic_products"
+                android:title="Zerodha Products" />
+            <item
+                android:id="@+id/nav_pricing"
+                android:icon="@drawable/ic_pricing"
+                android:title="Pricing of Zerodha" />
+            <item
+                android:id="@+id/nav_mutualfunds"
+                android:icon="@drawable/ic_mutualfund"
+                android:title="Mutual Funds" />
         </menu>
     </item>
 

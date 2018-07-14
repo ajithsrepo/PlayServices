@@ -13,465 +13,397 @@
             android:layout_height="match_parent"
             android:background="@color/backgroundcolor"
             android:orientation="vertical"
-            android:padding="10dp"
+            android:padding="3dp"
             tools:context=".Home">
 
-            <LinearLayout
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/chapter1"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:clipToPadding="false"
-                android:gravity="center"
-                android:orientation="horizontal">
+                android:layout_height="210dp"
+                android:layout_margin="5dp">
 
-                <android.support.v7.widget.CardView
-                    android:layout_width="160dp"
-                    android:layout_height="190dp"
-                    android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
 
-                    <LinearLayout
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="121dp"
+                        android:background="@drawable/circlebackgroundgreen"
+                        android:padding="0dp"
+                        android:scaleType="fitCenter"
+                        android:scaleX="2.5"
+                        android:scaleY="2.5"
+                        android:src="@drawable/ch1" />
+
+
+                    <View
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:gravity="center"
-                        android:orientation="vertical">
+                        android:layout_height="1dp"
+                        android:layout_margin="8dp"
+                        android:background="@color/black_overlay"
+                        android:padding="7dp" />
 
-                        <ImageView
-                            android:layout_width="64dp"
-                            android:layout_height="64dp"
-                            android:background="@drawable/circlebackgroundgreen"
-                            android:padding="9dp"
-                            android:src="@drawable/ch1" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
-                            android:text="Chapter 1"
-                            android:textAlignment="center"
-                            android:textColor="@color/black"
-                            android:textStyle="bold" />
-
-                        <View
-                            android:layout_width="match_parent"
-                            android:layout_height="1dp"
-                            android:layout_margin="10dp"
-                            android:background="@color/black_overlay" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:gravity="center"
-                            android:padding="5dp"
-                            android:text="Introduction to Stock Markets"
-                            android:textColor="@color/black" />
-
-                    </LinearLayout>
-
-                </android.support.v7.widget.CardView>
-
-                <android.support.v7.widget.CardView
-                    android:layout_width="160dp"
-                    android:layout_height="190dp"
-                    android:layout_margin="10dp">
-
-                    <LinearLayout
+                    <TextView
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_height="38dp"
                         android:gravity="center"
-                        android:orientation="vertical">
+                        android:text="Introduction to Stock Markets"
+                        android:textColor="@color/black"
+                        android:textSize="18dp" />
 
-                        <ImageView
-                            android:layout_width="64dp"
-                            android:layout_height="64dp"
-                            android:background="@drawable/circlebackgrounddeepblue"
-                            android:padding="15dp"
-                            android:src="@drawable/ch2" />
+                </LinearLayout>
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
-                            android:text="Chapter 2"
-                            android:textAlignment="center"
-                            android:textColor="@color/black"
-                            android:textStyle="bold" />
+            </android.support.v7.widget.CardView>
 
-                        <View
-                            android:layout_width="match_parent"
-                            android:layout_height="1dp"
-                            android:layout_margin="10dp"
-                            android:background="@color/black_overlay" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:gravity="center"
-                            android:padding="5dp"
-                            android:text="Technical Analysis"
-                            android:textColor="@color/black" />
-
-                    </LinearLayout>
-
-                </android.support.v7.widget.CardView>
-
-
-            </LinearLayout>
-
-            <LinearLayout
+            <android.support.v7.widget.CardView
+                android:id="@+id/chapter2"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:clipToPadding="false"
-                android:gravity="center"
-                android:orientation="horizontal">
+                android:layout_height="210dp"
+                android:layout_margin="5dp">
 
-                <android.support.v7.widget.CardView
-                    android:layout_width="160dp"
-                    android:layout_height="190dp"
-                    android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/circlebackgrounddeepblue"
+                    android:gravity="center"
+                    android:orientation="vertical">
 
-                    <LinearLayout
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="121dp"
+                        android:background="@drawable/circlebackgrounddeepblue"
+                        android:padding="0dp"
+                        android:scaleType="fitCenter"
+                        android:scaleX="1.5"
+                        android:scaleY="1.5"
+                        android:src="@drawable/ch2" />
+
+                    <View
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/black_overlay" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:orientation="vertical">
+                        android:padding="5dp"
+                        android:text="Technical Analysis"
+                        android:textColor="@color/black"
+                        android:textSize="18dp" />
 
-                        <ImageView
-                            android:layout_width="64dp"
-                            android:layout_height="64dp"
-                            android:background="@drawable/circlebackgroundyellow"
-                            android:padding="12.5dp"
-                            android:src="@drawable/ch3" />
+                </LinearLayout>
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
-                            android:text="Chapter 3"
-                            android:textAlignment="center"
-                            android:textColor="@color/black"
-                            android:textStyle="bold" />
+            </android.support.v7.widget.CardView>
 
-                        <View
-                            android:layout_width="match_parent"
-                            android:layout_height="1dp"
-                            android:layout_margin="10dp"
-                            android:background="@color/black_overlay" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:gravity="center"
-                            android:padding="5dp"
-                            android:text="Fundamental Analysis"
-                            android:textColor="@color/black" />
-
-                    </LinearLayout>
-
-                </android.support.v7.widget.CardView>
-
-                <android.support.v7.widget.CardView
-                    android:layout_width="160dp"
-                    android:layout_height="190dp"
-                    android:layout_margin="10dp">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:gravity="center"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_width="64dp"
-                            android:layout_height="64dp"
-                            android:background="@drawable/circlebackgroundpink"
-                            android:padding="15dp"
-                            android:src="@drawable/ch4" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
-                            android:text="Chapter 4"
-                            android:textAlignment="center"
-                            android:textColor="@color/black"
-                            android:textStyle="bold" />
-
-                        <View
-                            android:layout_width="match_parent"
-                            android:layout_height="1dp"
-                            android:layout_margin="10dp"
-                            android:background="@color/black_overlay" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:gravity="center"
-                            android:padding="5dp"
-                            android:text="Futures Trading"
-                            android:textColor="@color/black" />
-
-                    </LinearLayout>
-
-                </android.support.v7.widget.CardView>
-
-
-            </LinearLayout>
-
-            <LinearLayout
+            <android.support.v7.widget.CardView
+                android:id="@+id/chapter3"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:clipToPadding="false"
-                android:gravity="center"
-                android:orientation="horizontal">
+                android:layout_height="210dp"
+                android:layout_margin="5dp">
 
-                <android.support.v7.widget.CardView
-                    android:layout_width="160dp"
-                    android:layout_height="190dp"
-                    android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/circlebackgroundyellow"
+                    android:gravity="center"
+                    android:orientation="vertical">
 
-                    <LinearLayout
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="121dp"
+                        android:background="@drawable/circlebackgroundyellow"
+                        android:padding="0dp"
+                        android:scaleType="fitCenter"
+                        android:scaleX="1.5"
+                        android:scaleY="1.5"
+                        android:src="@drawable/ch3" />
+
+
+                    <View
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/black_overlay" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:orientation="vertical">
+                        android:padding="5dp"
+                        android:text="Fundamental Analysis"
+                        android:textColor="@color/black"
+                        android:textSize="18dp" />
 
-                        <ImageView
-                            android:layout_width="64dp"
-                            android:layout_height="64dp"
-                            android:background="@drawable/circlebackgrounddeepyellow"
-                            android:padding="9dp"
-                            android:src="@drawable/ch5" />
+                </LinearLayout>
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
-                            android:text="Chapter 5"
-                            android:textAlignment="center"
-                            android:textColor="@color/black"
-                            android:textStyle="bold" />
+            </android.support.v7.widget.CardView>
 
-                        <View
-                            android:layout_width="match_parent"
-                            android:layout_height="1dp"
-                            android:layout_margin="11dp"
-                            android:background="@color/black_overlay" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:gravity="center"
-                            android:padding="5dp"
-                            android:text="Options Theory for Professional Trading"
-                            android:textColor="@color/black" />
-
-                    </LinearLayout>
-
-                </android.support.v7.widget.CardView>
-
-                <android.support.v7.widget.CardView
-                    android:layout_width="160dp"
-                    android:layout_height="190dp"
-                    android:layout_margin="10dp">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:gravity="center"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_width="64dp"
-                            android:layout_height="64dp"
-                            android:background="@drawable/circlebackgroundpurple"
-                            android:padding="9dp"
-                            android:src="@drawable/ch6" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
-                            android:text="Chapter 6"
-                            android:textAlignment="center"
-                            android:textColor="@color/black"
-                            android:textStyle="bold" />
-
-                        <View
-                            android:layout_width="match_parent"
-                            android:layout_height="1dp"
-                            android:layout_margin="10dp"
-                            android:background="@color/black_overlay" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:gravity="center"
-                            android:padding="5dp"
-                            android:text="Option Strategies"
-                            android:textColor="@color/black" />
-
-                    </LinearLayout>
-
-                </android.support.v7.widget.CardView>
-
-
-            </LinearLayout>
-
-            <LinearLayout
+            <android.support.v7.widget.CardView
+                android:id="@+id/chapter4"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:clipToPadding="false"
-                android:gravity="center"
-                android:orientation="horizontal">
+                android:layout_height="210dp"
+                android:layout_margin="5dp">
 
-                <android.support.v7.widget.CardView
-                    android:layout_width="160dp"
-                    android:layout_height="190dp"
-                    android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/circlebackgroundpink"
+                    android:gravity="center"
+                    android:orientation="vertical">
 
-                    <LinearLayout
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="121dp"
+                        android:background="@drawable/circlebackgroundpink"
+                        android:padding="0dp"
+                        android:scaleType="fitCenter"
+                        android:scaleX="1.74"
+                        android:scaleY="1.74"
+                        android:src="@drawable/ch4" />
+
+
+                    <View
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/black_overlay" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:orientation="vertical">
+                        android:padding="5dp"
+                        android:text="Futures Trading"
+                        android:textColor="@color/black"
+                        android:textSize="18dp" />
 
-                        <ImageView
-                            android:layout_width="64dp"
-                            android:layout_height="64dp"
-                            android:background="@drawable/circlebackgroundlightgreen"
-                            android:padding="9dp"
-                            android:src="@drawable/ch7" />
+                </LinearLayout>
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
-                            android:text="Chapter 7"
-                            android:textAlignment="center"
-                            android:textColor="@color/black"
-                            android:textStyle="bold" />
+            </android.support.v7.widget.CardView>
 
-                        <View
-                            android:layout_width="match_parent"
-                            android:layout_height="1dp"
-                            android:layout_margin="10dp"
-                            android:background="@color/black_overlay" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:gravity="center"
-                            android:padding="5dp"
-                            android:text="Markets and Taxation"
-                            android:textColor="@color/black" />
-
-                    </LinearLayout>
-
-                </android.support.v7.widget.CardView>
-
-                <android.support.v7.widget.CardView
-                    android:layout_width="160dp"
-                    android:layout_height="190dp"
-                    android:layout_margin="10dp">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:gravity="center"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_width="64dp"
-                            android:layout_height="64dp"
-                            android:background="@drawable/circlebackgrounddullyellow"
-                            android:padding="9dp"
-                            android:src="@drawable/ch8" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
-                            android:text="Chapter 8"
-                            android:textAlignment="center"
-                            android:textColor="@color/black"
-                            android:textStyle="bold" />
-
-                        <View
-                            android:layout_width="match_parent"
-                            android:layout_height="1dp"
-                            android:layout_margin="10dp"
-                            android:background="@color/black_overlay" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:gravity="center"
-                            android:padding="5dp"
-                            android:text="Currency and Commodity Futures"
-                            android:textColor="@color/black" />
-
-                    </LinearLayout>
-
-                </android.support.v7.widget.CardView>
-
-
-            </LinearLayout>
-
-            <LinearLayout
+            <android.support.v7.widget.CardView
+                android:id="@+id/chapter5"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:clipToPadding="false"
-                android:gravity="center"
-                android:orientation="horizontal">
+                android:layout_height="210dp"
+                android:layout_margin="5dp">
 
-                <android.support.v7.widget.CardView
-                    android:layout_width="160dp"
-                    android:layout_height="190dp"
-                    android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/circlebackgrounddeepyellow"
+                    android:gravity="center"
+                    android:orientation="vertical">
 
-                    <LinearLayout
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="121dp"
+                        android:background="@drawable/circlebackgrounddeepyellow"
+                        android:padding="0dp"
+                        android:scaleType="fitCenter"
+                        android:scaleX="1.75"
+                        android:scaleY="1.75"
+                        android:src="@drawable/ch5" />
+
+
+                    <View
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="11dp"
+                        android:background="@color/black_overlay" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:orientation="vertical">
+                        android:padding="5dp"
+                        android:text="Options Theory for Professional Trading"
+                        android:textColor="@color/black"
+                        android:textSize="18dp" />
 
-                        <ImageView
-                            android:layout_width="64dp"
-                            android:layout_height="64dp"
-                            android:background="@drawable/circlebackgroundlightblue"
-                            android:padding="9dp"
-                            android:src="@drawable/ch9" />
+                </LinearLayout>
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
-                            android:text="Chapter 9"
-                            android:textAlignment="center"
-                            android:textColor="@color/black"
-                            android:textStyle="bold" />
+            </android.support.v7.widget.CardView>
 
-                        <View
-                            android:layout_width="match_parent"
-                            android:layout_height="1dp"
-                            android:layout_margin="10dp"
-                            android:background="@color/black_overlay" />
+            <android.support.v7.widget.CardView
+                android:id="@+id/chapter6"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:layout_margin="5dp">
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:gravity="center"
-                            android:padding="5dp"
-                            android:text="Risk Management and Trading Psychology"
-                            android:textColor="@color/black" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/circlebackgroundpurple"
+                    android:gravity="center"
+                    android:orientation="vertical">
 
-                    </LinearLayout>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="121dp"
+                        android:background="@drawable/circlebackgroundpurple"
+                        android:padding="0dp"
+                        android:scaleType="fitCenter"
+                        android:scaleX="2"
+                        android:scaleY="2"
+                        android:src="@drawable/ch6" />
 
-                </android.support.v7.widget.CardView>
 
-            </LinearLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/black_overlay" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="Option Strategies"
+                        android:textColor="@color/black"
+                        android:textSize="18dp" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/chapter7"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/circlebackgroundlightgreen"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="121dp"
+                        android:background="@drawable/circlebackgroundlightgreen"
+                        android:padding="0dp"
+                        android:scaleType="fitCenter"
+                        android:scaleX="1.75"
+                        android:scaleY="1.75"
+                        android:src="@drawable/ch7" />
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/black_overlay" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="Markets and Taxation"
+                        android:textColor="@color/black"
+                        android:textSize="18dp" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/chapter8"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/circlebackgrounddullyellow"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="121dp"
+                        android:background="@drawable/circlebackgrounddullyellow"
+                        android:padding="0dp"
+                        android:scaleType="fitCenter"
+                        android:scaleX="1.75"
+                        android:scaleY="1.75"
+                        android:src="@drawable/ch8" />
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/black_overlay" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="Currency and Commodity Futures"
+                        android:textColor="@color/black"
+                        android:textSize="18dp" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/chapter9"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/circlebackgroundlightblue"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="121dp"
+                        android:background="@drawable/circlebackgroundlightblue"
+                        android:padding="0dp"
+                        android:scaleType="fitCenter"
+                        android:scaleX="1.9"
+                        android:scaleY="1.9"
+                        android:src="@drawable/ch9" />
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/black_overlay" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="Risk Management and Trading Psychology"
+                        android:textColor="@color/black"
+                        android:textSize="18dp" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
 
         </LinearLayout>
 
-    </ScrollView>
+</ScrollView>
 
-</RelativeLayout>
+    </RelativeLayout>

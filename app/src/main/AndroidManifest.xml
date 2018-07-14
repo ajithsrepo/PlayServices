@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="varsity.ajithpoison.com.zerodhavarsity">
+    package="com.ajithpoison.zerodha.varsity">
 
     <application
         android:allowBackup="true"
@@ -9,13 +9,86 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Home"
+        <activity
+            android:name="com.ajithpoison.zerodha.varsity.Home"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ajithpoison.zerodha.varsity.Chap1"
+            android:label="@string/title_activity_chap1"
+            android:parentActivityName="com.ajithpoison.zerodha.varsity.Home">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ajithpoison.zerodha.varsity.Home" />
+        </activity>
+        <activity
+            android:name="com.ajithpoison.zerodha.varsity.Chap2"
+            android:label="@string/title_activity_chap2"
+            android:parentActivityName="com.ajithpoison.zerodha.varsity.Home">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ajithpoison.zerodha.varsity.Home" />
+        </activity>
+        <activity
+            android:name="com.ajithpoison.zerodha.varsity.Chap3"
+            android:label="@string/title_activity_chap3"
+            android:parentActivityName="com.ajithpoison.zerodha.varsity.Home">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ajithpoison.zerodha.varsity.Home" />
+        </activity>
+        <activity
+            android:name="com.ajithpoison.zerodha.varsity.Chap4"
+            android:label="@string/title_activity_chap4"
+            android:parentActivityName="com.ajithpoison.zerodha.varsity.Home">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ajithpoison.zerodha.varsity.Home" />
+        </activity>
+        <activity
+            android:name="com.ajithpoison.zerodha.varsity.Chap5"
+            android:label="@string/title_activity_chap5"
+            android:parentActivityName="com.ajithpoison.zerodha.varsity.Home">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ajithpoison.zerodha.varsity.Home" />
+        </activity>
+        <activity
+            android:name="com.ajithpoison.zerodha.varsity.Chap6"
+            android:label="@string/title_activity_chap6"
+            android:parentActivityName="com.ajithpoison.zerodha.varsity.Home">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ajithpoison.zerodha.varsity.Home" />
+        </activity>
+        <activity
+            android:name="com.ajithpoison.zerodha.varsity.Chap7"
+            android:label="@string/title_activity_chap7"
+            android:parentActivityName="com.ajithpoison.zerodha.varsity.Home">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ajithpoison.zerodha.varsity.Home" />
+        </activity>
+        <activity
+            android:name="com.ajithpoison.zerodha.varsity.Chap8"
+            android:label="@string/title_activity_chap8"
+            android:parentActivityName="com.ajithpoison.zerodha.varsity.Home">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ajithpoison.zerodha.varsity.Home" />
+        </activity>
+        <activity
+            android:name="com.ajithpoison.zerodha.varsity.Chap9"
+            android:label="@string/title_activity_chap9"
+            android:parentActivityName="com.ajithpoison.zerodha.varsity.Home">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ajithpoison.zerodha.varsity.Home" />
         </activity>
     </application>
 
