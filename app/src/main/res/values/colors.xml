@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#428ff4</color>
-    <color name="colorPrimaryDark">#316bb7</color>
+    <color name="colorPrimary">#E42F34</color>
+    <color name="colorPrimaryDark">#B9272C</color>
     <color name="backgroundcolor">#fcfcfc</color>
     <color name="green">#69C969</color>
     <color name="deepblue">#3b85da</color>
@@ -20,10 +20,10 @@
     <color name="headings">#3797CF</color>
     <color name="solidCircle">#AAFFFFFF</color>
     <color name="circleBorder">#50FFFFFF</color>
-    <color name="gradEnd">#67EFC8</color>
-    <color name="gradStart">#63C9FF</color>
-    <color name="followersBg">#65DCE5</color>
-    <color name="followingBg">#49BEFF</color>
+    <color name="gradEnd">#EF6767</color>
+    <color name="gradStart">#FF6363</color>
+    <color name="followersBg">#E56565</color>
+    <color name="followingBg">#FF4949</color>
     <color name="grey">#E5E5E5</color>
     <color name="white">#FFFFFF</color>
     <color name="colorPrimary1">#49BEFF</color>

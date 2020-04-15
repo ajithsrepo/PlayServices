@@ -1,2 +1,2 @@
-# zerodha
-Trying to create a new varsity app
+# stock
+Trying to create a new stock market app

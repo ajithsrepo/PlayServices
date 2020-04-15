@@ -6,8 +6,8 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_chapters"
-            android:icon="@mipmap/baseline_book_black_24"
-            android:title="Chapters" />
+            android:icon="@mipmap/baseline_motorcycle_black_24"
+            android:title="Motorcycles" />
 
         <item
             android:id="@+id/nav_contact"
@@ -30,22 +30,6 @@
                 android:id="@+id/nav_rate"
                 android:icon="@drawable/ic_star"
                 android:title="Rate this app" />
-            <item
-                android:id="@+id/nav_newaccount"
-                android:icon="@drawable/ic_createnewaccount"
-                android:title="Create Zerodha account" />
-            <item
-                android:id="@+id/nav_products"
-                android:icon="@drawable/ic_products"
-                android:title="Zerodha Products" />
-            <item
-                android:id="@+id/nav_pricing"
-                android:icon="@drawable/ic_pricing"
-                android:title="Pricing of Zerodha" />
-            <item
-                android:id="@+id/nav_mutualfunds"
-                android:icon="@drawable/ic_mutualfund"
-                android:title="Mutual Funds" />
         </menu>
     </item>
 
